@@ -1,0 +1,5 @@
+<view wx:for="{{mylist}}" wx:key="{{item}}" style='margin-top: 20rpx'>
+  <item color="{{item}}"></item>
+</view>
+
+<!-- <item color="yellow"></item> -->

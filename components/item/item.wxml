@@ -1,0 +1,10 @@
+<!--components/item/item.wxml-->
+<view class="main">
+  <view class='container {{isPreview ? "preview" : ""}}'>
+    <view 
+      bindtap='onContentClick' 
+      class='ani content' 
+      style='background-color:{{color}}; top:{{previewPos.top}}rpx;height:{{previewPos.height}}rpx'>
+    </view>
+  </view>
+</view>
